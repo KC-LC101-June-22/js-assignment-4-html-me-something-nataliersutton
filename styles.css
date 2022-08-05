@@ -4,8 +4,18 @@ body {
     font-family: "Raleway";
     margin: 8px;
     display: block;
+    text-align: center;
 }
 
 h1, h2, h3 {
     font-family: "Shadows Into Light";
 }
+
+.pLeft {
+    text-align: left;
+}
+
+.pRight {
+    text-align: right;
+}
+
