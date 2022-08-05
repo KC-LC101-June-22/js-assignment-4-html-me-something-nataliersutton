@@ -1,56 +1,77 @@
 /* Add a black background color to the top navigation */
 body {
-  background-color: #36544E;
-  color: floralwhite;
-  font-family: "Raleway";
+  background-color: #0b0d22;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
   margin: 8px;
   display: block;
   text-align: center;
 }
 
-h1, h2, h3 {
-  font-family: "Shadows Into Light";
+P {
+  margin: 25px 100px;
+}
+
+section {
+  margin: 50px;
+}
+
+h1, h2 {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ letter-spacing: ;
 }
 
 .topnav {
     position: fixed;
-    background-color: #333;
+    background-color: rgb(58, 10, 121);
     overflow: hidden;
     top: 0;
     width: 100%;
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-/* Introduction section */
-  .intro {
-    padding-top: 75px;
-  }
-/* Required Items */
-.pfunParagraph {
-    text-align: justify;
-    color: green;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #8a4bf0;
+  color: white;
+}
+
+  /* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+}
+
+/* Introduction section */
+.banner_image {
+  padding-top: 75px;
+}
+.intro {
+  padding-top: 25px;
+}
+/* Required Items */
+.funParagraph {
+  text-align: center;
+  color: green;
+}
+
+#mainHeading {
+  color: red;
+}
 
 
