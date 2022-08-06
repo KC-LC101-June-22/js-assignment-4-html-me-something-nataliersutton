@@ -1,1 +1,128 @@
-/* Write your CSS here! */
+/* Add a black background color to the top navigation */
+main {
+  max-width: 1350px;
+  margin: auto;
+  background-color: #0b1122;
+}
+
+footer {
+  max-width: 1350px;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  background-color:  rgb(26, 37, 80);
+  background-image: url(images/bluebrick2.jpg);
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  margin: 8px;
+  display: block;
+  text-align: justify;
+}
+
+P {
+  margin: 25px 100px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+h1 {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+
+h2 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #228ee1;
+}
+
+h3 {
+  margin-left: 100px;
+}
+
+.topnav {
+    position: fixed;
+    background-color: rgb(26, 37, 80);
+    overflow: hidden;
+    top: 0;
+    width: 99%;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #228ee1;
+  color: white;
+}
+
+  /* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+}
+
+/* Introduction section */
+.banner_image {
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  margin: 75px 35px 50px;
+  font-size: xx-large;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+.h3_right {
+text-align: left;
+}
+
+.players_right {
+text-align: left;
+}
+
+.game_image_left {
+  float: left;
+  margin: 20px 50px 20px 100px;
+}
+
+.game_image_right {
+  float: right;
+  margin: 20px 100px 20px 50px;
+}
+
+.solid {
+  max-width: 85%;
+}
+
+/* Required Items */
+.funParagraph {
+  text-align: center;
+  color: green;
+}
+
+#mainHeading {
+  color: red;
+}
