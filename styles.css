@@ -6,7 +6,7 @@ body {
   font-size: large;
   margin: 8px;
   display: block;
-  text-align: center;
+  text-align: justify;
 }
 
 P {
@@ -14,12 +14,16 @@ P {
 }
 
 section {
-  margin: 50px;
+  margin: 50px 0;
 }
 
 h1, h2 {
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- letter-spacing: ;
+ text-align: center;
+}
+
+h3 {
+  margin-left: 100px;
 }
 
 .topnav {
@@ -60,10 +64,33 @@ h1, h2 {
 /* Introduction section */
 .banner_image {
   padding-top: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .intro {
-  padding-top: 25px;
+  margin: 35px;
 }
+
+.h3_right {
+text-align: left;
+}
+
+.players_right {
+text-align: left;
+}
+
+.game_image_left {
+  float: left;
+  margin: 20px 50px 20px 100px;
+}
+
+.game_image_right {
+  float: right;
+  margin: 20px 100px 20px 50px;
+}
+
 /* Required Items */
 .funParagraph {
   text-align: center;
